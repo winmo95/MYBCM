@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".EditorActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="이 름"
+                style="@style/CategoryStyle" />
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_bcm_name"
+                android:hint="이 름"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="회 사" />
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_bcm_company"
+                style="@style/EditorFieldStyle"
+                android:hint="회 사"
+                android:inputType="textMultiLine"
+                android:overScrollMode="always"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/container_rank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="직 책" />
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_bcm_rank"
+                style="@style/EditorFieldStyle"
+                android:hint="직 책"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CategoryStyle"
+                android:text="주  소" />
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_bcm_address"
+                style="@style/EditorFieldStyle"
+                android:hint="주 소"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/container_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="사무실"
+                style="@style/CategoryStyle" />
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_bcm_tel"
+                android:hint="사무실번호"
+                android:inputType="phone"
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/container_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="휴대폰"
+                style="@style/CategoryStyle" />
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_bcm_phone"
+                android:hint="휴대폰"
+                android:inputType="phone"
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/container_fax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="FAX"
+                style="@style/CategoryStyle" />
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_bcm_fax"
+                android:hint="FAX 번호"
+                android:inputType="phone"
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="이메일"
+                style="@style/CategoryStyle" />
+
+            <!-- Name field -->
+            <EditText
+                android:id="@+id/edit_bcm_email"
+                android:hint="이메일"
+                android:inputType="textCapWords"
+                style="@style/EditorFieldStyle" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnCall"
+                android:text="Call"
+                android:drawableRight="@drawable/ic_add_my_call"
+                android:background="#64FFDA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="16dp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

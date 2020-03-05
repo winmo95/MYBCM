@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_rank_options">
+        <item>회장</item>
+        <item>부회장</item>
+        <item>사장</item>
+        <item>부사장</item>
+        <item>전무</item>
+        <item>상무</item>
+        <item>부장</item>
+        <item>차장</item>
+        <item>과장</item>
+        <item>대리</item>
+        <item>사원</item>
+        <item>인턴</item>
+        <item>UNKNOWN</item>
+    </string-array>
+</resources>

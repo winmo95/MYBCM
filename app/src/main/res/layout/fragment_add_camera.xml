@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddCamera">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/take"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#B39DDB"
+            android:layout_margin="16dp"
+            android:text="명함 촬영"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="40dp"
+            android:text="사용방법"
+            android:textColor="#7B1FA2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:text="1. 액션바 위에 있는 사진기 아이콘을 클릭한다.\n
+            \n2. 명함정보를 얻기 위한 방법을 선택한다.\n    2.1 카메라 : 사진 촬영\n    2.2 갤러기 : 갤러리 사진 이용\n
+            \n3.문자열 구별은 ?으로한다 \n\nex) 정도영? 울산대?\n
+            \n4. BCM버튼을 누른다."
+            />
+
+
+    </LinearLayout>
+</FrameLayout>

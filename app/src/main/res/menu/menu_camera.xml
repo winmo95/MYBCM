@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">>
+    <item
+        android:id="@+id/addImage"
+        android:title="명함 추가"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_camera"/>
+
+    <item
+        android:id="@+id/settings"
+        android:title="사용 방법"
+        />
+</menu>
